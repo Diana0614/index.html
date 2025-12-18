@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Prăjanu Diana">
+    <meta name="keywords" content="balet, eveniment, teatru">
+    <meta name="description" content="Pagina unui spectacol de balet">
+    <title>Spectacol de balet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        .main-navbar {
+            background-color: rgb(128, 174, 215);
+        }
+
+        .main-navbar .navbar-brand img {
+            height: 50px;
+            margin-right: 10px;
+            vertical-align: bottom;
+        }
+
+        .carousel-item {
+            margin: 10px;
+        }
+
+        .main-navbar .nav-link {
+            color: black
+        }
+
+        .sticky-img {
+            position: sticky;
+            top: 100px;
+        }
+
+        .main-footer {
+            background-color: rgb(128, 174, 215);
+        }
+
+        .main-footer .logo {
+            color: black;
+            text-decoration: none;
+        }
+
+        .main-footer .logo img {
+            height: 30px;
+            margin-right: 6px;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="navbar navbar-expand-md main-navbar sticky-top">
+        <nav class="container-fluid">
+            <h1 class="navbar-brand">
+                <a class="navbar-brand" href="index.html">
+                    <img src="cinderella-shoe.png" />Cenușăreasa – Spectacol de Balet
+                </a>
+            </h1>
+            <nav class="navbar navbar-expand-lg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain"
+                    aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarMain">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#despre">Despre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#detalii">Detalii</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bilete">Bilete</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./pexels-photo-175658.JPG" class="d-block w-100"
+                    alt="Fotografie care surprinde un moment din spectacol">
+            </div>
+            <div class="carousel-item">
+                <img src="./performance1.JPG" class="d-block w-100" alt="Un moment din alt spectacol">
+            </div>
+            <div class="carousel-item">
+                <img src="./performance.JPG" class="d-block w-100" alt="Un alt moment dintr-un spectacol">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </nav>
+    </div>
+    <div class="container mt-5">
+        <p>Bine ai venit pe site-ul oficial al spectacolului de balet „Cenușăreasa”.
+            Te invităm să pășești într-o lume de basm, unde dansul, muzica și emoția se împletesc într-o seară de
+            neuitat.
+            Este un eveniment care promite să cucerească inimile publicului prin eleganță, sensibilitate și magie.</p>
+        <hr>
+        <h2 id="despre">
+            Despre Trupa de Balet
+        </h2>
+        <p>Compania de Balet a Teatrului Municipal este recunoscută pentru profesionalismul și sensibilitatea
+            artistică
+            a dansatorilor săi.
+            Fiecare membru al trupei aduce pe scenă ani de pregătire, pasiune și dedicare, transformând fiecare
+            mișcare
+            într-o poveste.
+            Sub îndrumarea coregrafei Elena Dobre, trupa reușește să creeze spectacole care rămân în memoria
+            publicului.
+            Dansatorii impresionează prin tehnică impecabilă, expresivitate și capacitatea de a transmite emoții
+            autentice.
+            Pentru „Cenușăreasa”, echipa a lucrat intens pentru a reda farmecul basmului într-o formă modernă,
+            spectaculoasă și plină de viață.</p>
+        <hr>
+
+    </div>
+    <div class="container mt-5">
+        <h2>
+            Descrierea Evenimentului
+        </h2>
+        <p>Spectacolul „Cenușăreasa” este o reinterpretare artistică a poveștii clasice care a fascinat generații
+            întregi.
+            Prin dans, lumină și muzică, povestea tinerei care își păstrează bunătatea în ciuda greutăților prinde
+            viață
+            într-un mod emoționant și vizual impresionant.
+            Evenimentul este conceput pentru a oferi publicului o seară de neuitat, în care fiecare scenă este
+            construită cu atenție la detalii: de la decorurile elaborate, până la costumele strălucitoare și
+            momentele
+            coregrafice spectaculoase.
+            Este un spectacol potrivit pentru copii, adolescenți, adulți și pentru oricine își dorește să retrăiască
+            magia basmelor într-o formă artistică rafinată.</p>
+        <hr>
+    </div>
+    <div class="container mt-5">
+        <h2 id="detalii">
+            Mai multe detalii despre spectacol
+        </h2>
+        <p>În această producție, povestea este împărțită în trei acte, fiecare cu propria atmosferă și energie:</p>
+        <div class="d-flex p-2">
+            <div class="row mt-3">
+                <div class="col-12 col-md-7 col-lg-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Actul I – Viața Cenușăresei
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Publicul este introdus în lumea modestă a Cenușăresei, unde tânăra trăiește sub
+                                    autoritatea
+                                    mamei
+                                    vitrege
+                                    și a surorilor vitrege.
+                                    Deși tratată nedrept, ea își păstrează speranța și bunătatea.
+                                    Coregrafia surprinde contrastul dintre eleganța ei naturală și comportamentul comic,
+                                    exagerat al
+                                    surorilor.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Actul II – Transformarea și Balul Regal
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Acesta este momentul în care magia își face apariția.
+                                    Zâna cea Bună o ajută pe Cenușăreasă să ajungă la bal, iar scena se transformă
+                                    într-un
+                                    spectacol
+                                    vizual
+                                    impresionant.
+                                    Costumele strălucesc, luminile dansează, iar muzica creează o atmosferă regală.
+                                    Dansul dintre Cenușăreasa și Prinț este punctul culminant al actului, un moment plin
+                                    de
+                                    emoție
+                                    și
+                                    grație.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Actul III – Căutarea și Finalul Fericit
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    După miezul nopții, vraja se destramă, iar Prințul pornește în căutarea fetei
+                                    misterioase.
+                                    Scena pantofului de cristal este redată cu sensibilitate și suspans, iar finalul
+                                    aduce
+                                    publicului
+                                    bucuria reîntâlnirii și triumful binelui.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-4">
+                <div class="col-md-6">
+                    <img src="./ballet.JPG" class="img-fluid rounded sticky-img" style="max-width:300px ;" />
+                </div>
+            </div>
+        </div>
+        <p>Decorurile, luminile și muzica se îmbină perfect pentru a crea o experiență completă, în care fiecare
+            detaliu
+            contribuie la atmosfera de basm. </p>
+        <hr>
+
+
+        <div class="container mt-5">
+            <h2 id="bilete">
+                Zona de bilete
+            </h2>
+            <p>Pentru a participa la acest spectacol, biletele pot fi achiziționate atât online, cât și de la casa de
+                bilete
+                a teatrului.
+                Prețuri recomandate:</p>
+            <div class="container my-4">
+                <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="./w (8).JPG" class="card-img-top" alt="Privire jucăuș">
+                            <div class="card-body">
+                                <h5 class="card-title">Elevi / Studenți: 30 lei</h5>
+                                <p class="card-text">Pentru tinerii pasionați de artă și cultură, oferim un preț
+                                    special.
+                                    Este ocazia ideală de a descoperi magia baletului la un cost accesibil, într-o
+                                    atmosferă care
+                                    inspiră și educă.
+                                    Vino să trăiești povestea pe scenă și să îți îmbogățești sufletul cu frumusețea
+                                    spectacolului.</p>
+                                <a href="https://www.iabilet.ro/" class="btn btn-primary">Cumpără acum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="./misc (33).JPG" class="card-img-top" alt="Gest de grijă">
+                            <div class="card-body">
+                                <h5 class="card-title">Adulți: 50 lei</h5>
+                                <p class="card-text">>Un bilet care deschide porțile către o seară de neuitat.
+                                    Pentru doar 50 de lei, te poți bucura de eleganța dansului, costume spectaculoase și
+                                    emoția unei
+                                    povești nemuritoare.
+                                    O investiție mică pentru o experiență culturală mare, care îți va rămâne în memorie.
+                                </p>
+                                <a href="https://www.iabilet.ro/" class="btn btn-primary">Cumpără acum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            <img src="./misc (1).JPG" class="card-img-top" alt="Copilărie pictată">
+                            <div class="card-body">
+                                <h5 class="card-title">Copii sub 7 ani: gratuit, în limita locurilor disponibile</h5>
+                                <p class="card-text">Magia basmului este și mai frumoasă atunci când e împărtășită cu
+                                    cei mici.
+                                    Copiii sub 7 ani au acces gratuit, pentru ca întreaga familie să se bucure de
+                                    spectacol.
+                                    O oportunitate de a le oferi celor mici prima lor întâlnire cu lumea fascinantă a
+                                    baletului.</p>
+                                <a href="https://www.iabilet.ro/" class="btn btn-primary">Cumpără acum</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <p>Recomandăm rezervarea din timp, deoarece interesul pentru acest spectacol este ridicat, iar locurile se
+                ocupă
+                rapid.</p>
+            <a href="https://www.iabilet.ro/" class="btn btn-outline-secondary">
+                Cumpără bilet
+            </a>
+            <div class="container my-4">
+                <div class="row">
+
+                    <div class="col-12 mb-4">
+                        <h5>Când?</h5>
+                        <p>25 mai 2025</p>
+                        <p>
+                            Ora 19:00. Accesul în sală se face cu 30 de minute înainte de începerea
+                            spectacolului.
+                        </p>
+                    </div>
+
+                    <div class="col-12 mb-4">
+                        <h5>Unde?</h5>
+                        <p>
+                            Teatrul Municipal – Sala Mare<br>
+                            Str. Artiștilor nr. 12, Cluj-Napoca.
+                        </p>
+                        <p>
+                            Teatrul se află în centrul orașului și este ușor accesibil cu mijloacele de
+                            transport în comun. În apropiere există și parcări publice.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+        </div>
+        <div class="container mt-5">
+            <h2 id="contact">
+                Contact
+            </h2>
+            <p>Magia spectacolului Cenușăreasa nu se oprește odată cu cortina. Dacă ai întrebări despre bilete,
+                acces
+                sau
+                detalii organizatorice, echipa Teatrului Municipal îți stă la dispoziție cu drag.
+                Ne poți scrie, suna sau vizita, iar noi vom fi bucuroși să îți oferim toate informațiile de care ai
+                nevoie
+                pentru ca seara ta să fie perfectă.</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Email: <a href="contact@teatrul-municipal.ro"
+                        target="_blank">contact@teatrul-municipal.ro</a></li>
+                <li class="list-group-item">Telefon: <a href="0264 000 000" target="_blank">0264 000 000</a></li>
+                <li class="list-group-item">Adresă: Teatrul Municipal – Sala Mare, Str. Artiștilor nr. 12,
+                    Cluj-Napoca
+                </li>
+            </ul>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h2 id="galerie">Galerie </h2>
+            </div>
+        </div>
+        <div class="row galerie">
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./cinderella-shoe.png" alt="Pantof fermecat" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./pexels-photo-175658.JPG"
+                    alt="Fotografie care surprinde un moment din spectacol" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./performance1.JPG" alt="Un moment din alt spectacol" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./performance.JPG" alt="Un alt moment dintr-un spectacol" />
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./ballet.JPG" alt="Mișcare artistică" />
+            </div>
+            <div class="'col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./w (8).JPG" alt="Privire jucăușă" />
+            </div>
+            <div class="'col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./misc (33).JPG" alt="Gest de grijă" />
+            </div>
+            <div class="'col-6 col-md-4 col-lg-2">
+                <img class="img-thumbnail w-100" src="./misc (1).JPG" alt="Copilărie pictată" />
+            </div>
+            <hr>
+        </div>
+    </div>
+    <footer class="main-footer mt-5">
+        <div class="container">
+            <div class="d-flex justify-content-between pt-3">
+                <a href="index.html" class="logo">
+                    <img src="./cinderella-shoe.png" />Cenușăreasa-Spectacol de balet
+                </a>
+
+                <ul class="nav justify-content-end list-unstyled d-flex">
+                    <li class="me-3">
+                        <a href="https://www.instagram.com/">
+                            <img src="./instagram.png" alt="..." width="30" height="30" />
+                        </a>
+                    </li>
+                    <li class="me-3">
+                        <a href="https://www.youtube.com/">
+                            <img src="./youtube.png" alt="..." width="30" height="30" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https:www.facebook.com">
+                            <img src="./facebook.png" alt="..." width="30" height="30" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-footer text-center">
+                <div>© 2025 Teatrul Municipal – Spectacolul „Cenușăreasa”</div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
